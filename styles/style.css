@@ -36,13 +36,14 @@ body {
     background-color: #FF900E;
     border-radius: 8px;
     color: #FFFFFF;
-    padding: 22px;
+    padding: 20px 24px;
 }
 
 /* ----> Header Styles <---- */
-.header_container{
+.header_container {
     background-color: rgba(255, 144, 14, 0.1);
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -78,7 +79,79 @@ nav ul li {
     margin-bottom: 32px;
 }
 
-.header_container .banner img{
+.banner_button {
+    margin-bottom: 50px;
+}
+
+.header_container .banner img {
     width: 100%;
-    max-width: 1100px;
+    max-width: 1200px;
+    margin-bottom: 45px;
+    border-radius: 8px;
+}
+
+/* ----> feature section styles */
+.feature {
+    display: flex;
+    gap: 75px;
+}
+
+.feature_image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+    margin: 85px 0 0 130px;
+}
+
+.feature_intro {
+    margin: 287px 130px 0 0;
+}
+
+.feature_title {
+    margin-bottom: 24px;
+}
+
+.feature_intro_descripiton {
+    margin-bottom: 32px;
+}
+
+/* ----> feature details section */
+.conatianer{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.feature_details{
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    margin-top: 130px;
+}
+.line {
+    border-left: 5px solid #FF900E;
+}
+.feature_details_title{
+    margin-left: 21px;
+    margin-bottom: 24px;
+}
+
+.feature_details_description{
+    margin-bottom: 30px;
+}
+.list_title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.feature_list_info{
+    padding: 30px 42px 30px 30px;
+    margin-bottom: 15px;
+    box-shadow: 0.1px 0.1px 2px #888888;
+}
+
+.feature_details_image{
+    margin-bottom: 50px;
 }
