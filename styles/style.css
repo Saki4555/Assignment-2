@@ -117,28 +117,32 @@ nav ul li {
 }
 
 /* ----> feature details section */
-.conatianer{
+.conatianer {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
-.feature_details{
+
+.feature_details {
     display: flex;
     gap: 64px;
     justify-content: center;
     margin-top: 130px;
 }
+
 .line {
     border-left: 5px solid #FF900E;
 }
-.feature_details_title{
+
+.feature_details_title {
     margin-left: 21px;
     margin-bottom: 24px;
 }
 
-.feature_details_description{
+.feature_details_description {
     margin-bottom: 30px;
 }
+
 .list_title {
     font-weight: 600;
     font-size: 20px;
@@ -146,12 +150,37 @@ nav ul li {
     margin-bottom: 10px;
 }
 
-.feature_list_info{
+.feature_list_info {
     padding: 30px 42px 30px 30px;
     margin-bottom: 15px;
     box-shadow: 0.1px 0.1px 2px #888888;
 }
 
-.feature_details_image{
+.feature_details_image {
     margin-bottom: 50px;
+}
+
+/* ----> extra button */
+.move_button{
+    text-align: center;
+    margin-top: -180px;
+}
+.extra_button {
+    background-color: #FF900E;
+    border-radius: 8px;
+}
+
+.button_info {
+    padding: 45px;
+    color: #FFFFFF;
+}
+
+.extra_button .button_info h1 {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.extra_button .button_info p {
+    font-weight: 500;
+    font-size: 25px;
 }
