@@ -292,3 +292,47 @@ nav ul li {
     padding: 38px 300px;
     border-radius: 8px;
 }
+
+
+/* ------> media queries <------ */
+
+@media only screen and (max-width:576px) {
+    .header_container,.some_fact, .stat, .sponsor{
+        width: 100%;
+    }
+    nav {
+        flex-direction: column;
+    
+    }
+    .feature{
+        flex-direction: column;
+    }
+    .feature_image {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature_details {
+        flex-direction: column-reverse;
+    }
+    .move_button {
+        width: 100%;
+        margin: 10px;
+    }
+    .stat {
+        flex-direction: column;
+    }
+
+    .sponsors {
+        flex-direction: column;
+    }
+
+    .roadmap{
+        flex-wrap: wrap;
+    }
+
+    .footer_description {
+        font-weight: 350;
+        font-size: 14px;
+    }
+    
+}
